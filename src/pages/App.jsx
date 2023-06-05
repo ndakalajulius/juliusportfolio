@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Nav from './components/Nav';
-import Title from './components/Title';
+import Nav from '../../components/Nav/Nav';
+import Title from '../../components/Title/Title';
 import Resume from '../Resume/Resume';
 import Projects from '../Projects/Projects';
 import 'animate.css';

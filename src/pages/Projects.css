@@ -1,0 +1,77 @@
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15vmin;
+    row-gap: 8vmin;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 80vh;
+    overflow: scroll;
+    margin-top: 20vmin;
+    padding-bottom: 10vmin;
+    animation: fadeInUp 1s;
+}
+
+.Projects::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.project {
+    text-align: center;
+}
+
+.project-title {
+    font-size: 3vmin;
+}
+
+.description {
+    margin-top: -1vmin;
+    font-size: 1.5vmin;
+}
+
+.project-link {
+    font-size: 1.5vmin;
+    color: #39FF14;
+}
+
+span {
+    padding: 0 5px;
+}
+
+.swiper {
+    width: 45vmin;
+    height: 22vmin;
+    margin-top: 2vmin;
+}
+
+.swiper img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #39FF14;
+    opacity: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .Projects {
+        margin-top: 30vmin;
+        width: 90vw;
+    }
+
+    #title {
+        font-size: 6vmin;
+    }
+
+    .project-link {
+        font-size: 3vmin;
+    }
+
+    .swiper {
+        width: 85vw;
+        height: 40vmin;
+    }
+}
